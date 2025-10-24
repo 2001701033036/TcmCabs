@@ -98,7 +98,7 @@ export default function Home() {
         <p>At TCM Cabs, we believe that every journey is an opportunity to create cherished memories. With our commitment to excellence and customer satisfaction, we take pride in offering you unparalleled travel experiences.</p> <br />
                 <p>Whether you are seeking an adventurous escapade, a cultural exploration, or a relaxing getaway, our diverse range of tours and travel packages cater to every wanderlust soul. From picturesque hill stations to sun-kissed beaches,
                    from historical landmarks to vibrant cities, we meticulously craft each itinerary to ensure a seamless blend of comfort, excitement, and authenticity.</p> <br />
-                <p>Driven by our passion for travel and dedication to exceeding your expectations, latha Cab's Tours and Travels is your trusted companion in transforming your travel dreams into unforgettable realities</p><br />
+                <p>Driven by our passion for travel and dedication to exceeding your expectations, latha Cab&apos;s Tours and Travels is your trusted companion in transforming your travel dreams into unforgettable realities</p><br />
       </div>
      </div>
 
