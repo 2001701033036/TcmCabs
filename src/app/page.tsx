@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useRef, useEffect } from "react";
+
 import {LayoutGridDemo} from '../components/layout-grid/LayoutGridDemo'
 import {ImagesSlider} from '../components/ui/images-slider'
 
@@ -11,13 +11,6 @@ import cab2 from '../asset/cab2.png'
 
 import { FaCar } from "react-icons/fa";
 import { FaAddressCard } from "react-icons/fa";
-import { motion } from "framer-motion";
-import { div } from "framer-motion/client";
-
-
-
-
-
 
 export default function Home() {
   const photo=[cabr.src,cab.src,cab2.src]
@@ -102,8 +95,8 @@ export default function Home() {
       <div className=" p-4  ml-5 ">
         <p className="text-red-500" >Creating Memories, One Trip at a Time</p> 
         <p className="md:text-3xl text-xl font-black">TCM Tours & Travels</p><br />
-        <p>At TCM Cab's, we believe that every journey is an opportunity to create cherished memories. With our commitment to excellence and customer satisfaction, we take pride in offering you unparalleled travel experiences.</p> <br />
-                <p>Whether you're seeking an adventurous escapade, a cultural exploration, or a relaxing getaway, our diverse range of tours and travel packages cater to every wanderlust soul. From picturesque hill stations to sun-kissed beaches,
+        <p>At TCM Cabs, we believe that every journey is an opportunity to create cherished memories. With our commitment to excellence and customer satisfaction, we take pride in offering you unparalleled travel experiences.</p> <br />
+                <p>Whether you are seeking an adventurous escapade, a cultural exploration, or a relaxing getaway, our diverse range of tours and travel packages cater to every wanderlust soul. From picturesque hill stations to sun-kissed beaches,
                    from historical landmarks to vibrant cities, we meticulously craft each itinerary to ensure a seamless blend of comfort, excitement, and authenticity.</p> <br />
                 <p>Driven by our passion for travel and dedication to exceeding your expectations, latha Cab's Tours and Travels is your trusted companion in transforming your travel dreams into unforgettable realities</p><br />
       </div>
@@ -165,13 +158,13 @@ export default function Home() {
      <main>
       <div className="  grid md:grid-cols-2 md:space-x-20  mr-10 ml-10 md:mr-10">
        <div>
-      <p className="text-sm py-1 text-gray-400 "><span className="font-semibold text-neutral-200">Sri Arulmigu Ramanathaswamy Temple:</span> Delve into the sacred ambiance of one of India's holiest pilgrimage sites, known for its architectural splendor and spiritual significance</p>
-      <p className="text-sm py-1 text-gray-400"><span className="font-semibold text-neutral-200" >Ramar Padham:</span> Walk in the footsteps of Lord Rama at Ramar Padham, a revered spot believed to bear the imprints of Lord Rama's feet.</p>
-      <p  className="text-sm py-1 text-gray-400"><span className="font-semibold text-neutral-200" >Pamban Bridge:</span> Witness engineering marvel at its finest as you traverse the historic Pamban Bridge, India's first sea bridge connecting Rameswaram to mainland India.</p>
-      <p className="text-sm py-1 text-gray-400"><span className="font-semiboldtext-neutral-200 " >Dr. A.P.J. Abdul Kalam Memorial:</span> Pay homage to India's Missile Man at this memorial dedicated to the visionary leader, showcasing his life and achievements.</p>
+      <p className="text-sm py-1 text-gray-400 "><span className="font-semibold text-neutral-200">Sri Arulmigu Ramanathaswamy Temple:</span> Delve into the sacred ambiance of one of India holiest pilgrimage sites, known for its architectural splendor and spiritual significance</p>
+      <p className="text-sm py-1 text-gray-400"><span className="font-semibold text-neutral-200" >Ramar Padham:</span> Walk in the footsteps of Lord Rama at Ramar Padham, a revered spot believed to bear the imprints of Lord Rama feet.</p>
+      <p  className="text-sm py-1 text-gray-400"><span className="font-semibold text-neutral-200" >Pamban Bridge:</span> Witness engineering marvel at its finest as you traverse the historic Pamban Bridge, India&apos; first sea bridge connecting Rameswaram to mainland India.</p>
+      <p className="text-sm py-1 text-gray-400"><span className="font-semiboldtext-neutral-200 " >Dr. A.P.J. Abdul Kalam Memorial:</span> Pay homage to India&apos;s Missile Man at this memorial dedicated to the visionary leader, showcasing his life and achievements.</p>
       <p className="text-sm py-1 text-gray-400"><span className="font-semibold text-neutral-200" >Villondi Theertham:</span> Experience serenity at Villondi Theertham, a natural freshwater spring revered for its cleansing properties and mythological significance.</p>
       <p className="text-sm py-1 text-gray-400"><span className="font-semibold text-neutral-200" >Agnitheertham:</span> Immerse yourself in spiritual purification as you take a dip in the sacred waters of Agnitheertham, believed to absolve sins and offer salvation.</p>
-      <p className="text-sm py-1 text-gray-400"><span className="font-semibold text-neutral-200" >Lakshmana Theertham:</span> Explore the mythological tales surrounding Lakshmana Theertham, a holy water body believed to have been created by Lord Rama's brother Lakshmana.</p>
+      <p className="text-sm py-1 text-gray-400"><span className="font-semibold text-neutral-200" >Lakshmana Theertham:</span> Explore the mythological tales surrounding Lakshmana Theertham, a holy water body believed to have been created by Lord Rama&apos;s brother Lakshmana.</p>
       <p className="text-sm py-1 text-gray-400"><span className="font-semibold text-neutral-200" >Dhanushkodi:</span> Unravel the mysteries of the ghost town of Dhanushkodi, where the Bay of Bengal and the Indian Ocean converge, offering breathtaking views and a glimpse into history</p>
       <p className="text-sm py-1 text-gray-400"><span className="font-semibold text-neutral-200" >Floating Stone:</span> Marvel at the wonder of the Floating Stone, believed to be used in the construction of the legendary Ram Setu bridge, showcasing the ancient engineering prowess.</p>
      </div>
